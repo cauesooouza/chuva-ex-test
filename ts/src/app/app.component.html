@@ -1,90 +1,300 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-<!-- Toolbar -->
-<div class="toolbar" role="banner">
-  <img src="data:image/png;base64,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" alt="" />
-  <span>Seu ambiente de dev para o exercício da chuva está rodando!</span>
-  <div class="spacer"></div>
-</div>
-
-<div class="content" role="main">
-
-  <!-- Highlight Card -->
-  <div class="card highlight-card card-small">
-
-    <svg id="rocket" xmlns="http://www.w3.org/2000/svg" width="101.678" height="101.678" viewBox="0 0 101.678 101.678">
-      <title>Rocket Ship</title>
-      <g id="Group_83" data-name="Group 83" transform="translate(-141 -696)">
-        <circle id="Ellipse_8" data-name="Ellipse 8" cx="50.839" cy="50.839" r="50.839" transform="translate(141 696)" fill="#dd0031"/>
-        <g id="Group_47" data-name="Group 47" transform="translate(165.185 720.185)">
-          <path id="Path_33" data-name="Path 33" d="M3.4,42.615a3.084,3.084,0,0,0,3.553,3.553,21.419,21.419,0,0,0,12.215-6.107L9.511,30.4A21.419,21.419,0,0,0,3.4,42.615Z" transform="translate(0.371 3.363)" fill="#fff"/>
-          <path id="Path_34" data-name="Path 34" d="M53.3,3.221A3.09,3.09,0,0,0,50.081,0,48.227,48.227,0,0,0,18.322,13.437c-6-1.666-14.991-1.221-18.322,7.218A33.892,33.892,0,0,1,9.439,25.1l-.333.666a3.013,3.013,0,0,0,.555,3.553L23.985,43.641a2.9,2.9,0,0,0,3.553.555l.666-.333A33.892,33.892,0,0,1,32.647,53.3c8.55-3.664,8.884-12.326,7.218-18.322A48.227,48.227,0,0,0,53.3,3.221ZM34.424,9.772a6.439,6.439,0,1,1,9.106,9.106,6.368,6.368,0,0,1-9.106,0A6.467,6.467,0,0,1,34.424,9.772Z" transform="translate(0 0.005)" fill="#fff"/>
-        </g>
-      </g>
-    </svg>
-
-    <span>{{ title }} está rodando!</span>
-
-    <svg id="rocket-smoke" xmlns="http://www.w3.org/2000/svg" width="516.119" height="1083.632" viewBox="0 0 516.119 1083.632">
-      <title>Rocket Ship Smoke</title>
-      <path id="Path_40" data-name="Path 40" d="M644.6,141S143.02,215.537,147.049,870.207s342.774,201.755,342.774,201.755S404.659,847.213,388.815,762.2c-27.116-145.51-11.551-384.124,271.9-609.1C671.15,139.365,644.6,141,644.6,141Z" transform="translate(-147.025 -140.939)" fill="#f5f5f5"/>
-    </svg>
-
+<div class="flex">
+  <div class=" flex flex-col shadow-xl shadow-gray-400 border-r-1 border-r-gray-200">
+    <span class="py-3 text-3xl font-medium bg-gradient-to-b from-orange-200 to-orange-500 text-white text-center">SLACA
+      2019</span>
+    <img src="../assets/logo.png" alt="13 slaca logo" class="w-60">
+    <nav class="mt-2">
+      <ul class="text-[15px] text-gray-600">
+        <li
+          class="capitalize pl-5 py-1 border-b border-b-gray-300 cursor-pointer hover:bg-orange-100 hover:border-l-4 hover:border-l-orange-400 transition-all">
+          apresentação</li>
+        <li
+          class="capitalize pl-5 py-1 border-b border-b-gray-300 cursor-pointer hover:bg-orange-100 hover:border-l-4 hover:border-l-orange-400 transition-all">
+          comitês</li>
+        <li
+          class="capitalize pl-5 py-1 border-b border-b-gray-300 cursor-pointer hover:bg-orange-100 hover:border-l-4 hover:border-l-orange-400 transition-all">
+          autores</li>
+        <li
+          class="capitalize pl-5 py-1 border-b border-b-gray-300 cursor-pointer hover:bg-orange-100 hover:border-l-4 hover:border-l-orange-400 transition-all">
+          eixos temáticos</li>
+        <li
+          class="capitalize pl-5 py-1 border-b border-b-gray-300 cursor-pointer bg-orange-100 border-l-4 border-l-orange-400">
+          trabalhos</li>
+        <li
+          class="capitalize pl-5 py-1 border-b border-b-gray-300 cursor-pointer hover:bg-orange-100 hover:border-l-4 hover:border-l-orange-400 transition-all">
+          contato</li>
+      </ul>
+    </nav>
   </div>
-
-  <!-- Next Steps -->
-  <h2>Próximos passos</h2>
-  <p>O que voce deve fazer agora?</p>
-
-  <input type="hidden" #selection>
-
-  <!-- Terminal -->
-  <div class="terminal">
-    <pre>npx cypress open --env type=base</pre>
-  </div>
-
-  <!-- Resources -->
-  <h2>Informações importantes</h2>
-  <p>Os seguintes elementos devem existir no seu aplicativo renderizado (use o inspect):</p>
-  <div id="required-elements">
-    <h3>O título do trabalho deve ser um h2: </h3>
-    <h2>Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP'</h2>
-
-    <h3>O elemento de expandir resumo precisa ter a classe .btn-show-more</h3>
-    <a href="#" class="btn-show-more">ver mais</a>
-
-    <h3>O elemento de criar tópico precisa ter a classe .btn-create-topic</h3>
-    <a href="#" class="btn-create-topic">criar tópico</a>
-
-    <h3>O card que contém um tópico respondido precisa ter a classe .answered-topic, o assunto do tópico deve ter a classe .ops-topic-subject</h3>
-    <div class="answered-topic">
-      <h4 class="ops-topic-subject">Título do tópico</h4>
+  <div class="flex flex-col w-full">
+    <div class="bg-[#FDF1EB] px-8 py-2 flex items-center flex-wrap justify-between">
+      <div class="flex flex-col items-start  text-gray-700">
+        <span class="text-sm leading-4">Anais do Simpósio Latino Americano de Ciências de Alimentos </span>
+        <span class="text-[22px] leading-5">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos </span>
+        <span class="text-sm leading-4">ISSN: 1234-5678</span>
+      </div>
+      <div class="flex min-[320px]:gap-1 lg:gap-6">
+        <div class="py-1 px-2 border border-gray-300 rounded-sm flex">
+          <lucide-icon name="globe" class="text-gray-600"></lucide-icon>
+          <select name="lingua" id="lingua"
+            class="bg-transparent  text-gray-600 focus-visible:outline-none before:content-[`<lucide-icon name='globe'></lucide-icon>]">
+            <option value="pt" selected>PT,BR</option>
+            <option value="en">EN,US</option>
+            <option value="es">ES,ES</option>
+          </select>
+        </div>
+        <div class="flex justify-end">
+          <img src="../assets/user.jpg" alt="user" class="h-10 w-10 rounded-full">
+        </div>
+      </div>
     </div>
-    <div class="comments-container">
-      Os comentários de um tópico devem estar encapsulados num elemento com a classe .comments-container
+    <div class="xl:px-11 lg:px-6 pt-5">
+      <div class="flex justify-between">
+        <div class="w-[67%] flex flex-col gap-3">
+          <h2 class="font-bold text-orange-500 text-xl">Análise sensorial de preparações funcionais desenvolvidas para
+            escolares
+            entre 09 e 15 anos, do município de
+            Campinas/SP </h2>
+
+          <img src="../assets/image-video.png" alt="imagem video" class="w-full h-[439px]">
+        </div>
+        <div class="flex flex-col max-w-[242px] w-1/3 gap-2">
+          <div class="flex gap-2 justify-end">
+            <span class="flex items-center gap-2 py-1 px-3 rounded-md font-medium text-white bg-orange-500">
+              <lucide-icon name="download"></lucide-icon>
+              Download
+            </span>
+            <span class="bg-orange-500 py-1 px-2 rounded-md text-white">
+              <lucide-icon name="star"></lucide-icon>
+            </span>
+            <div class="bg-orange-500 py-1 px-2 rounded-md cursor-pointer">
+              <span class="text-orange-500 bg-white rounded-full font-bold text-sm p-[2px]">
+                doi
+              </span>
+            </div>
+          </div>
+          <span class="uppercase text-orange-500 font-medium text-end">como citar esse trabalho?</span>
+          <div class="w-[100%] border-gray-200 border">
+            <div class=" px-5 py-2 capitalize text-lg font-medium text-gray-700 bg-[#FDF1EB] border-gray-200 border-b">
+              detalhes
+            </div>
+            <div class="detalhe p-4 text-xs text-[#5C5C5C] max-h-[390px] overflow-auto">
+              <p class="leading-4">
+                Tipo de Apresentação: <b>Pôster</b>
+              </p>
+              <p class="leading-4">
+                Eixo temático: <b>Alimentação e saúde (AS)</b>
+              </p>
+              <p class="leading-4 mb-5">
+                Palavras-chaves: <b>Alimentos funcionais, alimentação escolar.</b>
+              </p>
+
+              <p class="leading-4">
+                <b>Autores:</b>
+              </p>
+              <p class="leading-4">
+                Galileo Galilei¹
+              </p>
+              <p class="leading-4">
+                Berta Lange de Morretes²
+              </p>
+              <p class="leading-4">
+                Isaac Newton³
+              </p>
+              <p class="leading-4">
+                Cesar Lattes¹
+              </p>
+              <p class="leading-4 mb-5">
+                Stephen Hawking⁴
+              </p>
+
+              <p class="text-[#ADA0A0] leading-4">
+                ¹Universidade Estadual de Campinas
+              </p>
+              <p class="text-[#ADA0A0] leading-4">
+                ²Universidade de São Paulo
+              </p>
+              <p class="text-[#ADA0A0] leading-4">
+                ³Instituto Nacional de Pesquisas Espaciais
+              </p>
+              <p class="text-[#ADA0A0] leading-4">
+                ⁴Universidade Federal do Rio de Janeiro
+              </p>
+              <p class="text-[#ADA0A0] leading-4">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, dolore tempore! Nemo esse minima omnis
+                obcaecati, perferendis temporibus ipsum recusandae atque error, id libero eaque debitis soluta unde
+                veritatis dolorem.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <form>
-      Assunto:
-      <input class="subject" placeholder="Defina um tópico sucinto para notificar os autores...">
-      Conteúdo:
-      <!-- <input> -->
-      <button>Enviar</button>
-    </form>
+    <div class="xl:px-11 lg:px-6 pt-5">
+      <section class="border border-gray-200 mb-8">
+        <div class=" px-5 py-2 capitalize text-lg font-medium text-gray-700 bg-[#FDF1EB] border-gray-200 border-b">
+          resumo
+        </div>
+        <div class="p-4 flex flex-col items-start">
+          <p class="text-[#5C5C5C] leading-[22.5px] text-sm">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam provident alias libero quo repellat officiis
+            dolores nesciunt asperiores ipsa iusto. Minima vero soluta consequuntur rerum assumenda est harum labore
+            asperiores?
+            Officiis id repellat maiores impedit nihil voluptatem eius recusandae. Laborum id expedita quae repudiandae
+            enim, obcaecati iure provident blanditiis beatae incidunt. Cumque dolorem animi fugit, quae tenetur autem
+            nobis esse?
+          </p>
+          <span
+            class="cursor-pointer font-medium btn-show-more bg-gradient-to-b from-orange-300 to-orange-500 text-white text-center p-2 order-last capitalize rounded-md  hover:opacity-80 transition"
+            (click)="mostrarTexto = !mostrarTexto">
+            {{mostrarTexto ? 'ocultar' : 'ver mais'}}
+          </span>
+          <p class="hidden text-[#5C5C5C] leading-[22.5px] text-sm mt-8" [class.mostrar-texto]="mostrarTexto">
+            Aperiam officiis ducimus tempora at corporis quaerat minus eligendi nemo commodi possimus dolor, autem porro
+            debitis.Eaque quisquam ullam mollitia, corporis harum adipisci perferendis dolor unde nulla, incidunt
+            accusamus ipsam. Velit, voluptatem? In, quis ullam cupiditate porro voluptates nam architecto dicta saepe at
+            illo expedita cum, natus soluta? Eveniet debitis autem optio atque ea necessitatibus temporibus quasi non
+            vitae eius. Deleniti sapiente nostrum optio dolore consectetur quibusdam, praesentium aliquam adipisci quae
+            quos. Facilis ad accusamus, dolores dignissimos assumenda velit, sed minima repudiandae architecto quia
+            facere libero iure perspiciatis natus corporis.
+          </p>
+        </div>
+      </section>
+      <section class="border border-gray-200 mb-8">
+        <div class=" px-5 py-2 capitalize text-lg font-medium text-gray-700 bg-[#FDF1EB] border-gray-200 border-b">
+          discussões
+        </div>
+        <div class="p-4">
+          <!-- inicial -->
+          <div class="mb-8 border-b border-gray-200 block" *ngIf="criarTopico;">
+            <div class="flex flex-col items-center gap-6 relative mb-10">
+              <p class="text-orange-500 font-bold text-lg">Compartilhe suas ideias ou dúvidas com os autores!</p>
+              <div class="flex gap-6">
+                <lucide-icon name="messages-square" class="bg-gray-200 p-1 rounded-md" size="40"></lucide-icon>
+                <lucide-icon name="lightbulb" class="bg-gray-200 p-1 rounded-md" size="40"></lucide-icon>
+                <lucide-icon name="hand-heart" class="bg-gray-200 p-1 rounded-md" size="40"></lucide-icon>
+              </div>
+              <p class="text-center text-sm text-[#595959] w-2/3">Sabia que o maior estímulo no desenvolvimento
+                científico e cultural é a curiosidade? Deixe seus
+                questionamentos ou sugestões para o autor!</p>
+              <span
+                class="cursor-pointer btn-create-topic bg-gradient-to-b  from-orange-300 to-orange-500 text-white text-center px-4 py-1 rounded-md font-medium shadow-md absolute -bottom-14 hover:opacity-85"
+                (click)="criarTopico = !criarTopico; topicoCriado = !topicoCriado
+                 ">criar tópico</span>
+            </div>
+          </div>
+          <!-- Formulario para criação do topico -->
+          <div class="mb-8 border-b border-gray-200" *ngIf="topicoCriado;">
+            <div class="flex flex-col items-center gap-6 relative mb-10">
+              <p class="text-lg text-[#5C5C5C]">Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
 
-    <h3>Após submeter o formulário, a seguinte mensagem deve ser exibida: Aguardando feedback dos autores</h3>
+
+              <form class="flex flex-col w-full" [formGroup]="form" (ngSubmit)="onSubmit()">
+                <div class="flex flex-col mb-2">
+                  <label for="Assunto" class="text-orange-500 font-bold text-base ml-1 mb-1">Assunto</label>
+                  <input type="text" placeholder="Defina um tópico sucinto para notificar os autores..." id="Assunto"
+                    class="py-2 px-4 subject border border-gray-200 rounded-md outline-none" name="assunto"
+                    formControlName="assunto">
+                </div>
+                <div class="flex flex-col">
+                  <label for="Conteudo" class="text-orange-500 font-bold text-base ml-1 mb-1">Conteúdo</label>
+                  <textarea id="Conteudo"
+                    class="py-2 px-4 border-l border-r border-t border-gray-200 rounded-t-md outline-none resize-none"
+                    rows="4" name="conteudo" formControlName="conteudo" id="conteudo"></textarea>
+                  <div class="bg-[#EAF1F2] flex justify-end border border-gray-200 rounded-b-md ">
+                    <button
+                      class="self-end bg-gradient-to-b from-orange-300 to-orange-500 text-white text-center w-52 py-2 font-medium"
+                      type="submit">Enviar</button>
+                  </div>
+                </div>
+              </form>
+
+
+            </div>
+          </div>
+          <!-- Topico enviado -->
+          <div class="mb-8 border-b border-gray-200 block" *ngIf="topicoEnviado;">
+            <div class="flex flex-col items-center gap-6 relative mb-10">
+              <p class="text-orange-500 font-bold text-lg">Seu tópico foi enviado com sucesso! :D</p>
+              <p class="text-center text-sm text-[#595959] w-2/3">Agradecemos por sua contribuição, uma notificação será
+                enviada ao seu email assim que seu tópico for respondido!</p>
+
+              <span
+                class="cursor-pointer bg-gradient-to-b from-orange-300 to-orange-500 text-white text-center px-4 py-1 rounded-md font-medium shadow-md absolute -bottom-14 hover:opacity-85"
+                (click)="topicoEnviado= !topicoEnviado; topicoCriado = !topicoCriado
+                 ">criar tópico</span>
+            </div>
+          </div>
+          <!-- novos topicos -->
+          <div class=" px-6 py-4 shadow-lg border border-gray-200 rounded-md flex flex-col mb-5 relative"
+            *ngFor="let topico of novosTopicos">
+            <div
+              class="absolute w-full h-full bg-gray-100/60 top-0 left-0 rounded-md backdrop-blur-sm flex flex-col justify-center items-center">
+              <lucide-icon name="check-check" class="text-[#707070]"></lucide-icon>
+              <span class="text-lg text-[#707070]">Aguardando feedback dos autores</span>
+              <span class="text-sm text-[rgb(237,120,57)]">Editar tópico</span>
+            </div>
+            <span class=" text-orange-500 font-medium text-lg ">{{topico.assunto}}</span>
+            <p class="text-[#4D4D4D] text-sm mb-3">{{topico.conteudo}}</p>
+          </div>
+          <!-- topicos existentes -->
+          <div class="px-6 py-4 shadow-lg border  border-gray-200 rounded-md flex flex-col mb-5  answered-topic"
+            *ngFor="let topico of topicos">
+            <span class=" text-orange-500 font-medium text-lg cursor-pointer ops-topic-subject"
+              (click)="clickMostraResposta(topico)">{{topico.titulo}}</span>
+            <span class="text-xs capitalize mb-2">{{topico.autor}}</span>
+            <p class="text-[#4D4D4D] text-sm mb-3">{{topico.mensagem}}</p>
+            <div class="flex gap-2 ">
+              <lucide-icon name="Ellipsis-Vertical" class="text-orange-500 cursor-pointer"></lucide-icon>
+              <lucide-icon name="Heart"
+                class="bg-orange-500 shadow-md text-white px-1 rounded-md cursor-pointer"></lucide-icon>
+              <span class="text-[#5C5C5C] cursor-pointer">{{topico.like <= 0 ? '' : topico.like + ' like' }}</span>
+
+                  <span class="text-[#5C5C5C] cursor-pointer " (click)="clickMostraResposta(topico)">
+                    {{topico.resposta.length <= 0 ? '' : topico.resposta.length + ' resposta' }} </span>
+
+            </div>
+            <!-- comentarios -->
+            <section *ngIf="topico.mostraResposta" class="comments-container">
+              <div class="mt-4 border border-gray-200 rounded-md flex flex-col p-6"
+                *ngFor="let resposta of topico.resposta">
+                <div class="flex justify-between">
+                  <span class="text-[#5C5C5C] font-bold text-sm">
+                    {{resposta.nome}}
+                  </span>
+                  <div class="text-[#ED7839] ">
+                    <span *ngIf="resposta.autor" class="flex gap-4 font-bold text-sm">
+                      {{resposta.autor ? 'Autor' : null}}
+                      <lucide-icon name="check-check"></lucide-icon>
+                    </span>
+                    <span *ngIf="resposta.coAutor" class="flex gap-4 font-bold text-sm">
+                      {{resposta.coAutor ? 'Coautor' : null}}
+                      <lucide-icon name="check-check"></lucide-icon>
+                    </span>
+                  </div>
+                </div>
+                <p class="text-[#5C5C5C] text-sm mt-2">{{resposta.mensagem}}</p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <footer class="flex border-t border-gray-200 px-2 pb-10 pt-4 gap-4">
+        <div class="flex flex-col">
+          <img src="../assets/galoa-logo.png" alt="galoa Logo" class="max-h-24 max-w-72">
+          <span class="bg-violet-950/90 text-white rounded-md px-2 py-1 hover:bg-violet-950/85 transition">saiba
+            mais</span>
+        </div>
+        <div class="mt-2">
+          <p class="text-sm mb-3"><b>Preservar a memória do evento e ampliar o acesso, ao conhecimento cientifico</b>
+            gerado em eventos é a
+            razão de ser da plataforma Galoá Proceedings.</p>
+          <p class="text-sm">Os trabalhos publicados aqui têm maior alcance e ficam disponiveis para toda a comunidade
+            cientifica,
+            mantendo aceso o debate científico fomentado pelos encontros e aumentando o impacto do evento.</p>
+        </div>
+      </footer>
+    </div>
   </div>
-
-  <svg id="clouds" xmlns="http://www.w3.org/2000/svg" width="2611.084" height="485.677" viewBox="0 0 2611.084 485.677">
-    <title>Gray Clouds Background</title>
-    <path id="Path_39" data-name="Path 39" d="M2379.709,863.793c10-93-77-171-168-149-52-114-225-105-264,15-75,3-140,59-152,133-30,2.83-66.725,9.829-93.5,26.25-26.771-16.421-63.5-23.42-93.5-26.25-12-74-77-130-152-133-39-120-212-129-264-15-54.084-13.075-106.753,9.173-138.488,48.9-31.734-39.726-84.4-61.974-138.487-48.9-52-114-225-105-264,15a162.027,162.027,0,0,0-103.147,43.044c-30.633-45.365-87.1-72.091-145.206-58.044-52-114-225-105-264,15-75,3-140,59-152,133-53,5-127,23-130,83-2,42,35,72,70,86,49,20,106,18,157,5a165.625,165.625,0,0,0,120,0c47,94,178,113,251,33,61.112,8.015,113.854-5.72,150.492-29.764a165.62,165.62,0,0,0,110.861-3.236c47,94,178,113,251,33,31.385,4.116,60.563,2.495,86.487-3.311,25.924,5.806,55.1,7.427,86.488,3.311,73,80,204,61,251-33a165.625,165.625,0,0,0,120,0c51,13,108,15,157-5a147.188,147.188,0,0,0,33.5-18.694,147.217,147.217,0,0,0,33.5,18.694c49,20,106,18,157,5a165.625,165.625,0,0,0,120,0c47,94,178,113,251,33C2446.709,1093.793,2554.709,922.793,2379.709,863.793Z" transform="translate(142.69 -634.312)" fill="#eee"/>
-  </svg>
-
 </div>

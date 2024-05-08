@@ -18,7 +18,7 @@ describe('checa elementos básicos', () => {
   });
 
   it('expandir tópico funciona', () => {
-    cy.get('.answered-topic .ops-topic-subject').click();
+    cy.get('.answered-topic .ops-topic-subject').click({ multiple: true });
     cy.get('.comments-container').should('exist');
     cy.compareSnapshot('Trabalho - Card de topico expandido');
   });
